@@ -1,0 +1,15 @@
+when you add
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+in pom file , it will enable the security by default
+
+
+http://localhost:8080/hello
+
+it will take you to the login form
+by default spring will have a user as "user" and password will be in console logs
+something like this
+Using generated security password: e3f4a086-d3ff-49e1-aa79-8191006275c3

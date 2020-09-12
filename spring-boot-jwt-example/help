@@ -1,0 +1,15 @@
+http://localhost:9192/
+
+http://localhost:9192/authenticate
+
+POST
+
+{
+    "userName" : "radha",
+    "password"  :  "password"
+}
+
+get the token
+
+copy the token to the http://localhost:9192/
+request with Bearer Token Type
